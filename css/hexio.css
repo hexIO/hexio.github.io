@@ -17,6 +17,34 @@ a {
     color:#66b4e4
 }
 
+@media screen and (max-width: 600px) {
+  #mailimg {
+    visibility: hidden;
+    margin-bottom: -40px;
+  }
+    
+  #comprow {
+        visibility: hidden;
+        margin-bottom: -650px;
+    }
+  #introp {
+      text-align: center;
+      margin: 0 auto;
+  }
+    
+    #introtext {
+        margin: 0 auto;
+        text-align: center;
+    }    
+}
+
+@media screen and (min-width: 600px) {
+    #mobirow {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 html{
 	background:url('../img/bg-new.jpg') repeat-y center center;
 	background-size:cover;
