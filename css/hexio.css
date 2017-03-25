@@ -1,0 +1,146 @@
+p {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#mc_embed_signup {
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+}
+
+a {
+    color:#66b4e4
+}
+
+html{
+	background:url('../img/bg-new.jpg') repeat-y center center;
+	background-size:cover;
+}
+
+body{
+    background:url('../img/bg-new.jpg') repeat-y center center;
+	min-height:80%;
+	background-size:cover;
+	min-height:80%;
+}
+
+.hexio-logo {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hexio-logo {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.btn-submit {
+    background: #6bbf67;
+    color: white;
+    margin-left: 10px;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+
+#nav-toggle-button{
+    background-color:red;
+}
+
+@media screen and (min-width: 1000px) {
+  .hexio-logo2 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.navbar.transparent {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-image:url('../img/bg-new.jpg');
+}
+
+.btn.padleftbutton {
+    margin-left: 10px;
+}
+
+#full-screen-background-image {
+        z-index: -999;
+        min-height: 100%;
+        min-width: 1024px;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
+.nav-item {
+    padding-bottom: 3px;
+}
+
+.nav-link {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 1.4em;
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-circle-crop {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+a#fade {
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease; 
+}
+
+a#fade:hover {
+  border-bottom: 1px solid rgba(192, 192, 192, 1);
+}
