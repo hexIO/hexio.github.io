@@ -2,4 +2,4 @@
 
 Coming soon! :tada:
 
-Developed by Vi Nguyen, Johan Widmannn
+Developed by Vi Nguyen, Johan Widmann, Nishant Verma
