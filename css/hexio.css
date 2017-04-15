@@ -17,28 +17,32 @@ a {
     color:#66b4e4
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #mailimg {
     visibility: hidden;
     margin-bottom: -40px;
   }
     
-  #comprow {
-        visibility: hidden;
-        margin-bottom: -650px;
-    }
+  #email-text {
+    visibility: hidden;
+  }
+    
   #introp {
       text-align: center;
       margin: 0 auto;
   }
     
-    #introtext {
-        margin: 0 auto;
-        text-align: center;
-    }    
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 1000px) {
+      #comprow {
+        visibility: hidden;
+        display: none;
+        margin-bottom: -650px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
     #mobirow {
         visibility: hidden;
         display: none;
@@ -63,15 +67,31 @@ body{
     padding-top: 7px;
 }
 
+@media (max-width: 1000px) and (min-width: 768px) {
+    .introphoto {
+        align-content: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-width: 1000px) {
-  .hexio-logo {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
+    .hexio-logo {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+    #introtext {
+        text-align: center;
+    }
+    .container {
+        text-align: center;
+    }
 }
 
 .btn-submit {
@@ -171,4 +191,8 @@ a#fade {
 
 a#fade:hover {
   border-bottom: 1px solid rgba(192, 192, 192, 1);
+}
+
+.img-responsive {
+    margin: 0 auto;
 }
